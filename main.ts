@@ -10,6 +10,3 @@ input.onButtonPressed(Button.B, function () {
     pins.analogWritePin(AnalogPin.P1, 1023)
     basic.showIcon(IconNames.Diamond)
 })
-basic.forever(function () {
-	
-})
