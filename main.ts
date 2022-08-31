@@ -1,12 +1,12 @@
 input.onButtonPressed(Button.A, function () {
-    pins.analogWritePin(AnalogPin.P1, 400)
     basic.showIcon(IconNames.SmallDiamond)
+    pins.analogWritePin(AnalogPin.P1, 400)
 })
 input.onButtonPressed(Button.AB, function () {
-    pins.analogWritePin(AnalogPin.P1, 0)
     basic.showIcon(IconNames.No)
+    pins.analogWritePin(AnalogPin.P1, 0)
 })
 input.onButtonPressed(Button.B, function () {
-    pins.analogWritePin(AnalogPin.P1, 1023)
     basic.showIcon(IconNames.Diamond)
+    pins.analogWritePin(AnalogPin.P1, 1023)
 })
